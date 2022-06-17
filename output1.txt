@@ -1,0 +1,1022 @@
+Progetto di Linguistica Computazionale, a.a. 2019/2020
+*** PROGRAMMA 1 ***
+
+Autrice: Ana Maria Gavrilescu
+Matricola: 578495
+
+Testi:
+- Crime and Punishment by Fyodor Dostoyevsky
+- Mansfield Park by Jane Austen
+
+
+
+1) Numero totale di frasi e di token
+
+Il numero totale delle frasi del primo testo é: 11942
+Il numero totale delle frasi del secondo testo é: 5702
+Il primo testo ha un maggior numero di frasi rispetto al secondo testo
+
+Il numero totale dei token del primo testo é: 253647
+Il numero totale dei token del secondo testo é: 186301
+Il primo testo ha un maggior numero di token rispetto al secondo testo
+
+
+2) Lunghezza media delle frasi in termini di token e lunghezza media delle parole in termini di caratteri
+
+La lunghezza media delle frasi in termini di token del primo testo é: 21.239909562887288
+La lunghezza media delle frasi in termini di token del secondo testo é: 32.67292178183094
+La lunghezza media delle frasi in termini di token del secondo testo é maggiore di quella del primo testo
+
+La lunghezza media delle parole in termini di caratteri del primo testo é: 3.656191478708599
+La lunghezza media delle parole in termini di caratteri del secondo testo é: 3.8712889356471516
+La lunghezza media delle parole in termini di caratteri del secondo testo é maggiore di quella del primo testo
+
+
+3) Grandezza del vocabolario e distribuzione degli hapax all'aumentare del corpus per porzioni incrementali di 1000 token
+
+La grandezza del vocabolario del primo testo é di 11096 token
+La grandezza del vocabolario del secondo testo é di 9513 token
+La grandezza del vocabolario del primo testo é maggiore rispetto a quella del secondo testo
+
+Per il primo testo:
+
+La distribuzione delle parole tipo a 1000 token é di: 464 token
+La distribuzione delle parole tipo a 2000 token é di: 779 token
+La distribuzione delle parole tipo a 3000 token é di: 1015 token
+La distribuzione delle parole tipo a 4000 token é di: 1178 token
+La distribuzione delle parole tipo a 5000 token é di: 1352 token
+La distribuzione delle parole tipo a 6000 token é di: 1564 token
+La distribuzione delle parole tipo a 7000 token é di: 1713 token
+La distribuzione delle parole tipo a 8000 token é di: 1846 token
+La distribuzione delle parole tipo a 9000 token é di: 1962 token
+La distribuzione delle parole tipo a 10000 token é di: 2073 token
+La distribuzione delle parole tipo a 11000 token é di: 2176 token
+La distribuzione delle parole tipo a 12000 token é di: 2264 token
+La distribuzione delle parole tipo a 13000 token é di: 2382 token
+La distribuzione delle parole tipo a 14000 token é di: 2500 token
+La distribuzione delle parole tipo a 15000 token é di: 2595 token
+La distribuzione delle parole tipo a 16000 token é di: 2688 token
+La distribuzione delle parole tipo a 17000 token é di: 2805 token
+La distribuzione delle parole tipo a 18000 token é di: 2903 token
+La distribuzione delle parole tipo a 19000 token é di: 2979 token
+La distribuzione delle parole tipo a 20000 token é di: 3051 token
+La distribuzione delle parole tipo a 21000 token é di: 3141 token
+La distribuzione delle parole tipo a 22000 token é di: 3218 token
+La distribuzione delle parole tipo a 23000 token é di: 3295 token
+La distribuzione delle parole tipo a 24000 token é di: 3381 token
+La distribuzione delle parole tipo a 25000 token é di: 3437 token
+La distribuzione delle parole tipo a 26000 token é di: 3502 token
+La distribuzione delle parole tipo a 27000 token é di: 3583 token
+La distribuzione delle parole tipo a 28000 token é di: 3694 token
+La distribuzione delle parole tipo a 29000 token é di: 3772 token
+La distribuzione delle parole tipo a 30000 token é di: 3842 token
+La distribuzione delle parole tipo a 31000 token é di: 3923 token
+La distribuzione delle parole tipo a 32000 token é di: 3988 token
+La distribuzione delle parole tipo a 33000 token é di: 4056 token
+La distribuzione delle parole tipo a 34000 token é di: 4129 token
+La distribuzione delle parole tipo a 35000 token é di: 4212 token
+La distribuzione delle parole tipo a 36000 token é di: 4283 token
+La distribuzione delle parole tipo a 37000 token é di: 4336 token
+La distribuzione delle parole tipo a 38000 token é di: 4385 token
+La distribuzione delle parole tipo a 39000 token é di: 4446 token
+La distribuzione delle parole tipo a 40000 token é di: 4509 token
+La distribuzione delle parole tipo a 41000 token é di: 4552 token
+La distribuzione delle parole tipo a 42000 token é di: 4596 token
+La distribuzione delle parole tipo a 43000 token é di: 4644 token
+La distribuzione delle parole tipo a 44000 token é di: 4677 token
+La distribuzione delle parole tipo a 45000 token é di: 4723 token
+La distribuzione delle parole tipo a 46000 token é di: 4763 token
+La distribuzione delle parole tipo a 47000 token é di: 4822 token
+La distribuzione delle parole tipo a 48000 token é di: 4901 token
+La distribuzione delle parole tipo a 49000 token é di: 4968 token
+La distribuzione delle parole tipo a 50000 token é di: 5027 token
+La distribuzione delle parole tipo a 51000 token é di: 5072 token
+La distribuzione delle parole tipo a 52000 token é di: 5115 token
+La distribuzione delle parole tipo a 53000 token é di: 5166 token
+La distribuzione delle parole tipo a 54000 token é di: 5210 token
+La distribuzione delle parole tipo a 55000 token é di: 5272 token
+La distribuzione delle parole tipo a 56000 token é di: 5341 token
+La distribuzione delle parole tipo a 57000 token é di: 5392 token
+La distribuzione delle parole tipo a 58000 token é di: 5434 token
+La distribuzione delle parole tipo a 59000 token é di: 5475 token
+La distribuzione delle parole tipo a 60000 token é di: 5522 token
+La distribuzione delle parole tipo a 61000 token é di: 5562 token
+La distribuzione delle parole tipo a 62000 token é di: 5587 token
+La distribuzione delle parole tipo a 63000 token é di: 5640 token
+La distribuzione delle parole tipo a 64000 token é di: 5680 token
+La distribuzione delle parole tipo a 65000 token é di: 5746 token
+La distribuzione delle parole tipo a 66000 token é di: 5800 token
+La distribuzione delle parole tipo a 67000 token é di: 5837 token
+La distribuzione delle parole tipo a 68000 token é di: 5861 token
+La distribuzione delle parole tipo a 69000 token é di: 5907 token
+La distribuzione delle parole tipo a 70000 token é di: 5950 token
+La distribuzione delle parole tipo a 71000 token é di: 6012 token
+La distribuzione delle parole tipo a 72000 token é di: 6092 token
+La distribuzione delle parole tipo a 73000 token é di: 6164 token
+La distribuzione delle parole tipo a 74000 token é di: 6198 token
+La distribuzione delle parole tipo a 75000 token é di: 6249 token
+La distribuzione delle parole tipo a 76000 token é di: 6297 token
+La distribuzione delle parole tipo a 77000 token é di: 6335 token
+La distribuzione delle parole tipo a 78000 token é di: 6364 token
+La distribuzione delle parole tipo a 79000 token é di: 6388 token
+La distribuzione delle parole tipo a 80000 token é di: 6423 token
+La distribuzione delle parole tipo a 81000 token é di: 6471 token
+La distribuzione delle parole tipo a 82000 token é di: 6498 token
+La distribuzione delle parole tipo a 83000 token é di: 6526 token
+La distribuzione delle parole tipo a 84000 token é di: 6551 token
+La distribuzione delle parole tipo a 85000 token é di: 6587 token
+La distribuzione delle parole tipo a 86000 token é di: 6620 token
+La distribuzione delle parole tipo a 87000 token é di: 6670 token
+La distribuzione delle parole tipo a 88000 token é di: 6717 token
+La distribuzione delle parole tipo a 89000 token é di: 6740 token
+La distribuzione delle parole tipo a 90000 token é di: 6778 token
+La distribuzione delle parole tipo a 91000 token é di: 6812 token
+La distribuzione delle parole tipo a 92000 token é di: 6826 token
+La distribuzione delle parole tipo a 93000 token é di: 6859 token
+La distribuzione delle parole tipo a 94000 token é di: 6890 token
+La distribuzione delle parole tipo a 95000 token é di: 6904 token
+La distribuzione delle parole tipo a 96000 token é di: 6935 token
+La distribuzione delle parole tipo a 97000 token é di: 6984 token
+La distribuzione delle parole tipo a 98000 token é di: 7035 token
+La distribuzione delle parole tipo a 99000 token é di: 7078 token
+La distribuzione delle parole tipo a 100000 token é di: 7121 token
+La distribuzione delle parole tipo a 101000 token é di: 7155 token
+La distribuzione delle parole tipo a 102000 token é di: 7180 token
+La distribuzione delle parole tipo a 103000 token é di: 7212 token
+La distribuzione delle parole tipo a 104000 token é di: 7249 token
+La distribuzione delle parole tipo a 105000 token é di: 7275 token
+La distribuzione delle parole tipo a 106000 token é di: 7314 token
+La distribuzione delle parole tipo a 107000 token é di: 7347 token
+La distribuzione delle parole tipo a 108000 token é di: 7372 token
+La distribuzione delle parole tipo a 109000 token é di: 7393 token
+La distribuzione delle parole tipo a 110000 token é di: 7427 token
+La distribuzione delle parole tipo a 111000 token é di: 7458 token
+La distribuzione delle parole tipo a 112000 token é di: 7483 token
+La distribuzione delle parole tipo a 113000 token é di: 7505 token
+La distribuzione delle parole tipo a 114000 token é di: 7525 token
+La distribuzione delle parole tipo a 115000 token é di: 7542 token
+La distribuzione delle parole tipo a 116000 token é di: 7567 token
+La distribuzione delle parole tipo a 117000 token é di: 7612 token
+La distribuzione delle parole tipo a 118000 token é di: 7643 token
+La distribuzione delle parole tipo a 119000 token é di: 7673 token
+La distribuzione delle parole tipo a 120000 token é di: 7708 token
+La distribuzione delle parole tipo a 121000 token é di: 7769 token
+La distribuzione delle parole tipo a 122000 token é di: 7818 token
+La distribuzione delle parole tipo a 123000 token é di: 7891 token
+La distribuzione delle parole tipo a 124000 token é di: 7937 token
+La distribuzione delle parole tipo a 125000 token é di: 7956 token
+La distribuzione delle parole tipo a 126000 token é di: 7985 token
+La distribuzione delle parole tipo a 127000 token é di: 8012 token
+La distribuzione delle parole tipo a 128000 token é di: 8032 token
+La distribuzione delle parole tipo a 129000 token é di: 8092 token
+La distribuzione delle parole tipo a 130000 token é di: 8116 token
+La distribuzione delle parole tipo a 131000 token é di: 8142 token
+La distribuzione delle parole tipo a 132000 token é di: 8172 token
+La distribuzione delle parole tipo a 133000 token é di: 8207 token
+La distribuzione delle parole tipo a 134000 token é di: 8239 token
+La distribuzione delle parole tipo a 135000 token é di: 8275 token
+La distribuzione delle parole tipo a 136000 token é di: 8298 token
+La distribuzione delle parole tipo a 137000 token é di: 8322 token
+La distribuzione delle parole tipo a 138000 token é di: 8336 token
+La distribuzione delle parole tipo a 139000 token é di: 8379 token
+La distribuzione delle parole tipo a 140000 token é di: 8420 token
+La distribuzione delle parole tipo a 141000 token é di: 8456 token
+La distribuzione delle parole tipo a 142000 token é di: 8490 token
+La distribuzione delle parole tipo a 143000 token é di: 8536 token
+La distribuzione delle parole tipo a 144000 token é di: 8568 token
+La distribuzione delle parole tipo a 145000 token é di: 8591 token
+La distribuzione delle parole tipo a 146000 token é di: 8608 token
+La distribuzione delle parole tipo a 147000 token é di: 8632 token
+La distribuzione delle parole tipo a 148000 token é di: 8642 token
+La distribuzione delle parole tipo a 149000 token é di: 8655 token
+La distribuzione delle parole tipo a 150000 token é di: 8679 token
+La distribuzione delle parole tipo a 151000 token é di: 8702 token
+La distribuzione delle parole tipo a 152000 token é di: 8740 token
+La distribuzione delle parole tipo a 153000 token é di: 8780 token
+La distribuzione delle parole tipo a 154000 token é di: 8792 token
+La distribuzione delle parole tipo a 155000 token é di: 8819 token
+La distribuzione delle parole tipo a 156000 token é di: 8846 token
+La distribuzione delle parole tipo a 157000 token é di: 8885 token
+La distribuzione delle parole tipo a 158000 token é di: 8906 token
+La distribuzione delle parole tipo a 159000 token é di: 8944 token
+La distribuzione delle parole tipo a 160000 token é di: 8974 token
+La distribuzione delle parole tipo a 161000 token é di: 8995 token
+La distribuzione delle parole tipo a 162000 token é di: 9008 token
+La distribuzione delle parole tipo a 163000 token é di: 9031 token
+La distribuzione delle parole tipo a 164000 token é di: 9038 token
+La distribuzione delle parole tipo a 165000 token é di: 9061 token
+La distribuzione delle parole tipo a 166000 token é di: 9080 token
+La distribuzione delle parole tipo a 167000 token é di: 9112 token
+La distribuzione delle parole tipo a 168000 token é di: 9143 token
+La distribuzione delle parole tipo a 169000 token é di: 9194 token
+La distribuzione delle parole tipo a 170000 token é di: 9218 token
+La distribuzione delle parole tipo a 171000 token é di: 9249 token
+La distribuzione delle parole tipo a 172000 token é di: 9267 token
+La distribuzione delle parole tipo a 173000 token é di: 9295 token
+La distribuzione delle parole tipo a 174000 token é di: 9318 token
+La distribuzione delle parole tipo a 175000 token é di: 9368 token
+La distribuzione delle parole tipo a 176000 token é di: 9402 token
+La distribuzione delle parole tipo a 177000 token é di: 9430 token
+La distribuzione delle parole tipo a 178000 token é di: 9459 token
+La distribuzione delle parole tipo a 179000 token é di: 9503 token
+La distribuzione delle parole tipo a 180000 token é di: 9540 token
+La distribuzione delle parole tipo a 181000 token é di: 9559 token
+La distribuzione delle parole tipo a 182000 token é di: 9578 token
+La distribuzione delle parole tipo a 183000 token é di: 9606 token
+La distribuzione delle parole tipo a 184000 token é di: 9616 token
+La distribuzione delle parole tipo a 185000 token é di: 9651 token
+La distribuzione delle parole tipo a 186000 token é di: 9672 token
+La distribuzione delle parole tipo a 187000 token é di: 9691 token
+La distribuzione delle parole tipo a 188000 token é di: 9699 token
+La distribuzione delle parole tipo a 189000 token é di: 9709 token
+La distribuzione delle parole tipo a 190000 token é di: 9720 token
+La distribuzione delle parole tipo a 191000 token é di: 9728 token
+La distribuzione delle parole tipo a 192000 token é di: 9748 token
+La distribuzione delle parole tipo a 193000 token é di: 9772 token
+La distribuzione delle parole tipo a 194000 token é di: 9785 token
+La distribuzione delle parole tipo a 195000 token é di: 9794 token
+La distribuzione delle parole tipo a 196000 token é di: 9809 token
+La distribuzione delle parole tipo a 197000 token é di: 9828 token
+La distribuzione delle parole tipo a 198000 token é di: 9849 token
+La distribuzione delle parole tipo a 199000 token é di: 9895 token
+La distribuzione delle parole tipo a 200000 token é di: 9919 token
+La distribuzione delle parole tipo a 201000 token é di: 9955 token
+La distribuzione delle parole tipo a 202000 token é di: 9974 token
+La distribuzione delle parole tipo a 203000 token é di: 9992 token
+La distribuzione delle parole tipo a 204000 token é di: 10005 token
+La distribuzione delle parole tipo a 205000 token é di: 10013 token
+La distribuzione delle parole tipo a 206000 token é di: 10029 token
+La distribuzione delle parole tipo a 207000 token é di: 10050 token
+La distribuzione delle parole tipo a 208000 token é di: 10065 token
+La distribuzione delle parole tipo a 209000 token é di: 10082 token
+La distribuzione delle parole tipo a 210000 token é di: 10115 token
+La distribuzione delle parole tipo a 211000 token é di: 10136 token
+La distribuzione delle parole tipo a 212000 token é di: 10152 token
+La distribuzione delle parole tipo a 213000 token é di: 10166 token
+La distribuzione delle parole tipo a 214000 token é di: 10183 token
+La distribuzione delle parole tipo a 215000 token é di: 10213 token
+La distribuzione delle parole tipo a 216000 token é di: 10221 token
+La distribuzione delle parole tipo a 217000 token é di: 10240 token
+La distribuzione delle parole tipo a 218000 token é di: 10267 token
+La distribuzione delle parole tipo a 219000 token é di: 10300 token
+La distribuzione delle parole tipo a 220000 token é di: 10339 token
+La distribuzione delle parole tipo a 221000 token é di: 10358 token
+La distribuzione delle parole tipo a 222000 token é di: 10384 token
+La distribuzione delle parole tipo a 223000 token é di: 10415 token
+La distribuzione delle parole tipo a 224000 token é di: 10448 token
+La distribuzione delle parole tipo a 225000 token é di: 10462 token
+La distribuzione delle parole tipo a 226000 token é di: 10471 token
+La distribuzione delle parole tipo a 227000 token é di: 10484 token
+La distribuzione delle parole tipo a 228000 token é di: 10514 token
+La distribuzione delle parole tipo a 229000 token é di: 10525 token
+La distribuzione delle parole tipo a 230000 token é di: 10548 token
+La distribuzione delle parole tipo a 231000 token é di: 10581 token
+La distribuzione delle parole tipo a 232000 token é di: 10599 token
+La distribuzione delle parole tipo a 233000 token é di: 10622 token
+La distribuzione delle parole tipo a 234000 token é di: 10649 token
+La distribuzione delle parole tipo a 235000 token é di: 10701 token
+La distribuzione delle parole tipo a 236000 token é di: 10728 token
+La distribuzione delle parole tipo a 237000 token é di: 10754 token
+La distribuzione delle parole tipo a 238000 token é di: 10771 token
+La distribuzione delle parole tipo a 239000 token é di: 10774 token
+La distribuzione delle parole tipo a 240000 token é di: 10778 token
+La distribuzione delle parole tipo a 241000 token é di: 10799 token
+La distribuzione delle parole tipo a 242000 token é di: 10808 token
+La distribuzione delle parole tipo a 243000 token é di: 10822 token
+La distribuzione delle parole tipo a 244000 token é di: 10839 token
+La distribuzione delle parole tipo a 245000 token é di: 10855 token
+La distribuzione delle parole tipo a 246000 token é di: 10890 token
+La distribuzione delle parole tipo a 247000 token é di: 10917 token
+La distribuzione delle parole tipo a 248000 token é di: 10935 token
+La distribuzione delle parole tipo a 249000 token é di: 10955 token
+La distribuzione delle parole tipo a 250000 token é di: 10983 token
+La distribuzione delle parole tipo a 251000 token é di: 11024 token
+La distribuzione delle parole tipo a 252000 token é di: 11060 token
+La distribuzione delle parole tipo a 253000 token é di: 11085 token
+
+
+La distribuzione degli hapax a 1000 token é di: 359 token
+La distribuzione degli hapax a 2000 token é di: 570 token
+La distribuzione degli hapax a 3000 token é di: 705 token
+La distribuzione degli hapax a 4000 token é di: 775 token
+La distribuzione degli hapax a 5000 token é di: 872 token
+La distribuzione degli hapax a 6000 token é di: 1005 token
+La distribuzione degli hapax a 7000 token é di: 1079 token
+La distribuzione degli hapax a 8000 token é di: 1152 token
+La distribuzione degli hapax a 9000 token é di: 1200 token
+La distribuzione degli hapax a 10000 token é di: 1237 token
+La distribuzione degli hapax a 11000 token é di: 1295 token
+La distribuzione degli hapax a 12000 token é di: 1326 token
+La distribuzione degli hapax a 13000 token é di: 1382 token
+La distribuzione degli hapax a 14000 token é di: 1448 token
+La distribuzione degli hapax a 15000 token é di: 1488 token
+La distribuzione degli hapax a 16000 token é di: 1531 token
+La distribuzione degli hapax a 17000 token é di: 1590 token
+La distribuzione degli hapax a 18000 token é di: 1645 token
+La distribuzione degli hapax a 19000 token é di: 1671 token
+La distribuzione degli hapax a 20000 token é di: 1700 token
+La distribuzione degli hapax a 21000 token é di: 1741 token
+La distribuzione degli hapax a 22000 token é di: 1776 token
+La distribuzione degli hapax a 23000 token é di: 1820 token
+La distribuzione degli hapax a 24000 token é di: 1863 token
+La distribuzione degli hapax a 25000 token é di: 1876 token
+La distribuzione degli hapax a 26000 token é di: 1912 token
+La distribuzione degli hapax a 27000 token é di: 1965 token
+La distribuzione degli hapax a 28000 token é di: 2019 token
+La distribuzione degli hapax a 29000 token é di: 2053 token
+La distribuzione degli hapax a 30000 token é di: 2082 token
+La distribuzione degli hapax a 31000 token é di: 2111 token
+La distribuzione degli hapax a 32000 token é di: 2133 token
+La distribuzione degli hapax a 33000 token é di: 2159 token
+La distribuzione degli hapax a 34000 token é di: 2193 token
+La distribuzione degli hapax a 35000 token é di: 2231 token
+La distribuzione degli hapax a 36000 token é di: 2264 token
+La distribuzione degli hapax a 37000 token é di: 2281 token
+La distribuzione degli hapax a 38000 token é di: 2296 token
+La distribuzione degli hapax a 39000 token é di: 2326 token
+La distribuzione degli hapax a 40000 token é di: 2350 token
+La distribuzione degli hapax a 41000 token é di: 2350 token
+La distribuzione degli hapax a 42000 token é di: 2361 token
+La distribuzione degli hapax a 43000 token é di: 2378 token
+La distribuzione degli hapax a 44000 token é di: 2384 token
+La distribuzione degli hapax a 45000 token é di: 2396 token
+La distribuzione degli hapax a 46000 token é di: 2412 token
+La distribuzione degli hapax a 47000 token é di: 2424 token
+La distribuzione degli hapax a 48000 token é di: 2457 token
+La distribuzione degli hapax a 49000 token é di: 2485 token
+La distribuzione degli hapax a 50000 token é di: 2510 token
+La distribuzione degli hapax a 51000 token é di: 2519 token
+La distribuzione degli hapax a 52000 token é di: 2535 token
+La distribuzione degli hapax a 53000 token é di: 2551 token
+La distribuzione degli hapax a 54000 token é di: 2571 token
+La distribuzione degli hapax a 55000 token é di: 2609 token
+La distribuzione degli hapax a 56000 token é di: 2641 token
+La distribuzione degli hapax a 57000 token é di: 2671 token
+La distribuzione degli hapax a 58000 token é di: 2684 token
+La distribuzione degli hapax a 59000 token é di: 2694 token
+La distribuzione degli hapax a 60000 token é di: 2701 token
+La distribuzione degli hapax a 61000 token é di: 2724 token
+La distribuzione degli hapax a 62000 token é di: 2729 token
+La distribuzione degli hapax a 63000 token é di: 2761 token
+La distribuzione degli hapax a 64000 token é di: 2769 token
+La distribuzione degli hapax a 65000 token é di: 2812 token
+La distribuzione degli hapax a 66000 token é di: 2842 token
+La distribuzione degli hapax a 67000 token é di: 2865 token
+La distribuzione degli hapax a 68000 token é di: 2866 token
+La distribuzione degli hapax a 69000 token é di: 2882 token
+La distribuzione degli hapax a 70000 token é di: 2898 token
+La distribuzione degli hapax a 71000 token é di: 2918 token
+La distribuzione degli hapax a 72000 token é di: 2970 token
+La distribuzione degli hapax a 73000 token é di: 3003 token
+La distribuzione degli hapax a 74000 token é di: 3009 token
+La distribuzione degli hapax a 75000 token é di: 3036 token
+La distribuzione degli hapax a 76000 token é di: 3053 token
+La distribuzione degli hapax a 77000 token é di: 3058 token
+La distribuzione degli hapax a 78000 token é di: 3064 token
+La distribuzione degli hapax a 79000 token é di: 3072 token
+La distribuzione degli hapax a 80000 token é di: 3083 token
+La distribuzione degli hapax a 81000 token é di: 3090 token
+La distribuzione degli hapax a 82000 token é di: 3104 token
+La distribuzione degli hapax a 83000 token é di: 3114 token
+La distribuzione degli hapax a 84000 token é di: 3109 token
+La distribuzione degli hapax a 85000 token é di: 3118 token
+La distribuzione degli hapax a 86000 token é di: 3128 token
+La distribuzione degli hapax a 87000 token é di: 3142 token
+La distribuzione degli hapax a 88000 token é di: 3160 token
+La distribuzione degli hapax a 89000 token é di: 3157 token
+La distribuzione degli hapax a 90000 token é di: 3172 token
+La distribuzione degli hapax a 91000 token é di: 3185 token
+La distribuzione degli hapax a 92000 token é di: 3188 token
+La distribuzione degli hapax a 93000 token é di: 3200 token
+La distribuzione degli hapax a 94000 token é di: 3205 token
+La distribuzione degli hapax a 95000 token é di: 3202 token
+La distribuzione degli hapax a 96000 token é di: 3221 token
+La distribuzione degli hapax a 97000 token é di: 3243 token
+La distribuzione degli hapax a 98000 token é di: 3261 token
+La distribuzione degli hapax a 99000 token é di: 3280 token
+La distribuzione degli hapax a 100000 token é di: 3306 token
+La distribuzione degli hapax a 101000 token é di: 3314 token
+La distribuzione degli hapax a 102000 token é di: 3323 token
+La distribuzione degli hapax a 103000 token é di: 3342 token
+La distribuzione degli hapax a 104000 token é di: 3365 token
+La distribuzione degli hapax a 105000 token é di: 3370 token
+La distribuzione degli hapax a 106000 token é di: 3390 token
+La distribuzione degli hapax a 107000 token é di: 3397 token
+La distribuzione degli hapax a 108000 token é di: 3414 token
+La distribuzione degli hapax a 109000 token é di: 3420 token
+La distribuzione degli hapax a 110000 token é di: 3432 token
+La distribuzione degli hapax a 111000 token é di: 3441 token
+La distribuzione degli hapax a 112000 token é di: 3446 token
+La distribuzione degli hapax a 113000 token é di: 3459 token
+La distribuzione degli hapax a 114000 token é di: 3470 token
+La distribuzione degli hapax a 115000 token é di: 3472 token
+La distribuzione degli hapax a 116000 token é di: 3479 token
+La distribuzione degli hapax a 117000 token é di: 3502 token
+La distribuzione degli hapax a 118000 token é di: 3514 token
+La distribuzione degli hapax a 119000 token é di: 3528 token
+La distribuzione degli hapax a 120000 token é di: 3546 token
+La distribuzione degli hapax a 121000 token é di: 3582 token
+La distribuzione degli hapax a 122000 token é di: 3606 token
+La distribuzione degli hapax a 123000 token é di: 3643 token
+La distribuzione degli hapax a 124000 token é di: 3662 token
+La distribuzione degli hapax a 125000 token é di: 3664 token
+La distribuzione degli hapax a 126000 token é di: 3675 token
+La distribuzione degli hapax a 127000 token é di: 3687 token
+La distribuzione degli hapax a 128000 token é di: 3687 token
+La distribuzione degli hapax a 129000 token é di: 3718 token
+La distribuzione degli hapax a 130000 token é di: 3722 token
+La distribuzione degli hapax a 131000 token é di: 3728 token
+La distribuzione degli hapax a 132000 token é di: 3745 token
+La distribuzione degli hapax a 133000 token é di: 3755 token
+La distribuzione degli hapax a 134000 token é di: 3768 token
+La distribuzione degli hapax a 135000 token é di: 3786 token
+La distribuzione degli hapax a 136000 token é di: 3790 token
+La distribuzione degli hapax a 137000 token é di: 3802 token
+La distribuzione degli hapax a 138000 token é di: 3803 token
+La distribuzione degli hapax a 139000 token é di: 3821 token
+La distribuzione degli hapax a 140000 token é di: 3838 token
+La distribuzione degli hapax a 141000 token é di: 3850 token
+La distribuzione degli hapax a 142000 token é di: 3861 token
+La distribuzione degli hapax a 143000 token é di: 3890 token
+La distribuzione degli hapax a 144000 token é di: 3897 token
+La distribuzione degli hapax a 145000 token é di: 3904 token
+La distribuzione degli hapax a 146000 token é di: 3911 token
+La distribuzione degli hapax a 147000 token é di: 3920 token
+La distribuzione degli hapax a 148000 token é di: 3914 token
+La distribuzione degli hapax a 149000 token é di: 3904 token
+La distribuzione degli hapax a 150000 token é di: 3918 token
+La distribuzione degli hapax a 151000 token é di: 3918 token
+La distribuzione degli hapax a 152000 token é di: 3931 token
+La distribuzione degli hapax a 153000 token é di: 3938 token
+La distribuzione degli hapax a 154000 token é di: 3937 token
+La distribuzione degli hapax a 155000 token é di: 3951 token
+La distribuzione degli hapax a 156000 token é di: 3954 token
+La distribuzione degli hapax a 157000 token é di: 3969 token
+La distribuzione degli hapax a 158000 token é di: 3975 token
+La distribuzione degli hapax a 159000 token é di: 3991 token
+La distribuzione degli hapax a 160000 token é di: 4004 token
+La distribuzione degli hapax a 161000 token é di: 4005 token
+La distribuzione degli hapax a 162000 token é di: 3999 token
+La distribuzione degli hapax a 163000 token é di: 4012 token
+La distribuzione degli hapax a 164000 token é di: 4003 token
+La distribuzione degli hapax a 165000 token é di: 4003 token
+La distribuzione degli hapax a 166000 token é di: 4012 token
+La distribuzione degli hapax a 167000 token é di: 4029 token
+La distribuzione degli hapax a 168000 token é di: 4037 token
+La distribuzione degli hapax a 169000 token é di: 4064 token
+La distribuzione degli hapax a 170000 token é di: 4065 token
+La distribuzione degli hapax a 171000 token é di: 4072 token
+La distribuzione degli hapax a 172000 token é di: 4068 token
+La distribuzione degli hapax a 173000 token é di: 4080 token
+La distribuzione degli hapax a 174000 token é di: 4088 token
+La distribuzione degli hapax a 175000 token é di: 4093 token
+La distribuzione degli hapax a 176000 token é di: 4112 token
+La distribuzione degli hapax a 177000 token é di: 4117 token
+La distribuzione degli hapax a 178000 token é di: 4133 token
+La distribuzione degli hapax a 179000 token é di: 4152 token
+La distribuzione degli hapax a 180000 token é di: 4162 token
+La distribuzione degli hapax a 181000 token é di: 4161 token
+La distribuzione degli hapax a 182000 token é di: 4162 token
+La distribuzione degli hapax a 183000 token é di: 4174 token
+La distribuzione degli hapax a 184000 token é di: 4174 token
+La distribuzione degli hapax a 185000 token é di: 4198 token
+La distribuzione degli hapax a 186000 token é di: 4209 token
+La distribuzione degli hapax a 187000 token é di: 4209 token
+La distribuzione degli hapax a 188000 token é di: 4208 token
+La distribuzione degli hapax a 189000 token é di: 4209 token
+La distribuzione degli hapax a 190000 token é di: 4214 token
+La distribuzione degli hapax a 191000 token é di: 4215 token
+La distribuzione degli hapax a 192000 token é di: 4224 token
+La distribuzione degli hapax a 193000 token é di: 4236 token
+La distribuzione degli hapax a 194000 token é di: 4239 token
+La distribuzione degli hapax a 195000 token é di: 4239 token
+La distribuzione degli hapax a 196000 token é di: 4239 token
+La distribuzione degli hapax a 197000 token é di: 4246 token
+La distribuzione degli hapax a 198000 token é di: 4248 token
+La distribuzione degli hapax a 199000 token é di: 4273 token
+La distribuzione degli hapax a 200000 token é di: 4279 token
+La distribuzione degli hapax a 201000 token é di: 4296 token
+La distribuzione degli hapax a 202000 token é di: 4296 token
+La distribuzione degli hapax a 203000 token é di: 4300 token
+La distribuzione degli hapax a 204000 token é di: 4305 token
+La distribuzione degli hapax a 205000 token é di: 4306 token
+La distribuzione degli hapax a 206000 token é di: 4310 token
+La distribuzione degli hapax a 207000 token é di: 4319 token
+La distribuzione degli hapax a 208000 token é di: 4326 token
+La distribuzione degli hapax a 209000 token é di: 4335 token
+La distribuzione degli hapax a 210000 token é di: 4354 token
+La distribuzione degli hapax a 211000 token é di: 4368 token
+La distribuzione degli hapax a 212000 token é di: 4367 token
+La distribuzione degli hapax a 213000 token é di: 4372 token
+La distribuzione degli hapax a 214000 token é di: 4382 token
+La distribuzione degli hapax a 215000 token é di: 4395 token
+La distribuzione degli hapax a 216000 token é di: 4394 token
+La distribuzione degli hapax a 217000 token é di: 4398 token
+La distribuzione degli hapax a 218000 token é di: 4409 token
+La distribuzione degli hapax a 219000 token é di: 4428 token
+La distribuzione degli hapax a 220000 token é di: 4443 token
+La distribuzione degli hapax a 221000 token é di: 4448 token
+La distribuzione degli hapax a 222000 token é di: 4465 token
+La distribuzione degli hapax a 223000 token é di: 4482 token
+La distribuzione degli hapax a 224000 token é di: 4507 token
+La distribuzione degli hapax a 225000 token é di: 4513 token
+La distribuzione degli hapax a 226000 token é di: 4514 token
+La distribuzione degli hapax a 227000 token é di: 4518 token
+La distribuzione degli hapax a 228000 token é di: 4536 token
+La distribuzione degli hapax a 229000 token é di: 4543 token
+La distribuzione degli hapax a 230000 token é di: 4545 token
+La distribuzione degli hapax a 231000 token é di: 4566 token
+La distribuzione degli hapax a 232000 token é di: 4573 token
+La distribuzione degli hapax a 233000 token é di: 4588 token
+La distribuzione degli hapax a 234000 token é di: 4595 token
+La distribuzione degli hapax a 235000 token é di: 4627 token
+La distribuzione degli hapax a 236000 token é di: 4631 token
+La distribuzione degli hapax a 237000 token é di: 4634 token
+La distribuzione degli hapax a 238000 token é di: 4638 token
+La distribuzione degli hapax a 239000 token é di: 4638 token
+La distribuzione degli hapax a 240000 token é di: 4632 token
+La distribuzione degli hapax a 241000 token é di: 4634 token
+La distribuzione degli hapax a 242000 token é di: 4633 token
+La distribuzione degli hapax a 243000 token é di: 4638 token
+La distribuzione degli hapax a 244000 token é di: 4645 token
+La distribuzione degli hapax a 245000 token é di: 4652 token
+La distribuzione degli hapax a 246000 token é di: 4671 token
+La distribuzione degli hapax a 247000 token é di: 4681 token
+La distribuzione degli hapax a 248000 token é di: 4681 token
+La distribuzione degli hapax a 249000 token é di: 4691 token
+La distribuzione degli hapax a 250000 token é di: 4699 token
+La distribuzione degli hapax a 251000 token é di: 4726 token
+La distribuzione degli hapax a 252000 token é di: 4739 token
+La distribuzione degli hapax a 253000 token é di: 4748 token
+
+Per il secondo testo:
+
+La distribuzione delle parole tipo a 1000 token é di: 407 token
+La distribuzione delle parole tipo a 2000 token é di: 656 token
+La distribuzione delle parole tipo a 3000 token é di: 852 token
+La distribuzione delle parole tipo a 4000 token é di: 1026 token
+La distribuzione delle parole tipo a 5000 token é di: 1205 token
+La distribuzione delle parole tipo a 6000 token é di: 1342 token
+La distribuzione delle parole tipo a 7000 token é di: 1488 token
+La distribuzione delle parole tipo a 8000 token é di: 1640 token
+La distribuzione delle parole tipo a 9000 token é di: 1747 token
+La distribuzione delle parole tipo a 10000 token é di: 1837 token
+La distribuzione delle parole tipo a 11000 token é di: 1914 token
+La distribuzione delle parole tipo a 12000 token é di: 2015 token
+La distribuzione delle parole tipo a 13000 token é di: 2139 token
+La distribuzione delle parole tipo a 14000 token é di: 2238 token
+La distribuzione delle parole tipo a 15000 token é di: 2332 token
+La distribuzione delle parole tipo a 16000 token é di: 2432 token
+La distribuzione delle parole tipo a 17000 token é di: 2497 token
+La distribuzione delle parole tipo a 18000 token é di: 2587 token
+La distribuzione delle parole tipo a 19000 token é di: 2669 token
+La distribuzione delle parole tipo a 20000 token é di: 2759 token
+La distribuzione delle parole tipo a 21000 token é di: 2846 token
+La distribuzione delle parole tipo a 22000 token é di: 2942 token
+La distribuzione delle parole tipo a 23000 token é di: 3024 token
+La distribuzione delle parole tipo a 24000 token é di: 3104 token
+La distribuzione delle parole tipo a 25000 token é di: 3172 token
+La distribuzione delle parole tipo a 26000 token é di: 3249 token
+La distribuzione delle parole tipo a 27000 token é di: 3313 token
+La distribuzione delle parole tipo a 28000 token é di: 3387 token
+La distribuzione delle parole tipo a 29000 token é di: 3452 token
+La distribuzione delle parole tipo a 30000 token é di: 3505 token
+La distribuzione delle parole tipo a 31000 token é di: 3551 token
+La distribuzione delle parole tipo a 32000 token é di: 3616 token
+La distribuzione delle parole tipo a 33000 token é di: 3692 token
+La distribuzione delle parole tipo a 34000 token é di: 3788 token
+La distribuzione delle parole tipo a 35000 token é di: 3861 token
+La distribuzione delle parole tipo a 36000 token é di: 3939 token
+La distribuzione delle parole tipo a 37000 token é di: 4015 token
+La distribuzione delle parole tipo a 38000 token é di: 4070 token
+La distribuzione delle parole tipo a 39000 token é di: 4121 token
+La distribuzione delle parole tipo a 40000 token é di: 4167 token
+La distribuzione delle parole tipo a 41000 token é di: 4228 token
+La distribuzione delle parole tipo a 42000 token é di: 4287 token
+La distribuzione delle parole tipo a 43000 token é di: 4368 token
+La distribuzione delle parole tipo a 44000 token é di: 4428 token
+La distribuzione delle parole tipo a 45000 token é di: 4503 token
+La distribuzione delle parole tipo a 46000 token é di: 4557 token
+La distribuzione delle parole tipo a 47000 token é di: 4595 token
+La distribuzione delle parole tipo a 48000 token é di: 4668 token
+La distribuzione delle parole tipo a 49000 token é di: 4741 token
+La distribuzione delle parole tipo a 50000 token é di: 4800 token
+La distribuzione delle parole tipo a 51000 token é di: 4854 token
+La distribuzione delle parole tipo a 52000 token é di: 4927 token
+La distribuzione delle parole tipo a 53000 token é di: 4973 token
+La distribuzione delle parole tipo a 54000 token é di: 5036 token
+La distribuzione delle parole tipo a 55000 token é di: 5080 token
+La distribuzione delle parole tipo a 56000 token é di: 5133 token
+La distribuzione delle parole tipo a 57000 token é di: 5184 token
+La distribuzione delle parole tipo a 58000 token é di: 5222 token
+La distribuzione delle parole tipo a 59000 token é di: 5277 token
+La distribuzione delle parole tipo a 60000 token é di: 5357 token
+La distribuzione delle parole tipo a 61000 token é di: 5416 token
+La distribuzione delle parole tipo a 62000 token é di: 5472 token
+La distribuzione delle parole tipo a 63000 token é di: 5518 token
+La distribuzione delle parole tipo a 64000 token é di: 5578 token
+La distribuzione delle parole tipo a 65000 token é di: 5619 token
+La distribuzione delle parole tipo a 66000 token é di: 5654 token
+La distribuzione delle parole tipo a 67000 token é di: 5707 token
+La distribuzione delle parole tipo a 68000 token é di: 5756 token
+La distribuzione delle parole tipo a 69000 token é di: 5812 token
+La distribuzione delle parole tipo a 70000 token é di: 5866 token
+La distribuzione delle parole tipo a 71000 token é di: 5905 token
+La distribuzione delle parole tipo a 72000 token é di: 5954 token
+La distribuzione delle parole tipo a 73000 token é di: 6000 token
+La distribuzione delle parole tipo a 74000 token é di: 6056 token
+La distribuzione delle parole tipo a 75000 token é di: 6097 token
+La distribuzione delle parole tipo a 76000 token é di: 6134 token
+La distribuzione delle parole tipo a 77000 token é di: 6169 token
+La distribuzione delle parole tipo a 78000 token é di: 6210 token
+La distribuzione delle parole tipo a 79000 token é di: 6258 token
+La distribuzione delle parole tipo a 80000 token é di: 6302 token
+La distribuzione delle parole tipo a 81000 token é di: 6362 token
+La distribuzione delle parole tipo a 82000 token é di: 6407 token
+La distribuzione delle parole tipo a 83000 token é di: 6456 token
+La distribuzione delle parole tipo a 84000 token é di: 6483 token
+La distribuzione delle parole tipo a 85000 token é di: 6505 token
+La distribuzione delle parole tipo a 86000 token é di: 6534 token
+La distribuzione delle parole tipo a 87000 token é di: 6566 token
+La distribuzione delle parole tipo a 88000 token é di: 6621 token
+La distribuzione delle parole tipo a 89000 token é di: 6669 token
+La distribuzione delle parole tipo a 90000 token é di: 6706 token
+La distribuzione delle parole tipo a 91000 token é di: 6758 token
+La distribuzione delle parole tipo a 92000 token é di: 6821 token
+La distribuzione delle parole tipo a 93000 token é di: 6860 token
+La distribuzione delle parole tipo a 94000 token é di: 6908 token
+La distribuzione delle parole tipo a 95000 token é di: 6947 token
+La distribuzione delle parole tipo a 96000 token é di: 6978 token
+La distribuzione delle parole tipo a 97000 token é di: 7018 token
+La distribuzione delle parole tipo a 98000 token é di: 7045 token
+La distribuzione delle parole tipo a 99000 token é di: 7079 token
+La distribuzione delle parole tipo a 100000 token é di: 7114 token
+La distribuzione delle parole tipo a 101000 token é di: 7147 token
+La distribuzione delle parole tipo a 102000 token é di: 7175 token
+La distribuzione delle parole tipo a 103000 token é di: 7215 token
+La distribuzione delle parole tipo a 104000 token é di: 7246 token
+La distribuzione delle parole tipo a 105000 token é di: 7265 token
+La distribuzione delle parole tipo a 106000 token é di: 7296 token
+La distribuzione delle parole tipo a 107000 token é di: 7326 token
+La distribuzione delle parole tipo a 108000 token é di: 7345 token
+La distribuzione delle parole tipo a 109000 token é di: 7366 token
+La distribuzione delle parole tipo a 110000 token é di: 7418 token
+La distribuzione delle parole tipo a 111000 token é di: 7451 token
+La distribuzione delle parole tipo a 112000 token é di: 7481 token
+La distribuzione delle parole tipo a 113000 token é di: 7504 token
+La distribuzione delle parole tipo a 114000 token é di: 7534 token
+La distribuzione delle parole tipo a 115000 token é di: 7562 token
+La distribuzione delle parole tipo a 116000 token é di: 7594 token
+La distribuzione delle parole tipo a 117000 token é di: 7625 token
+La distribuzione delle parole tipo a 118000 token é di: 7651 token
+La distribuzione delle parole tipo a 119000 token é di: 7678 token
+La distribuzione delle parole tipo a 120000 token é di: 7708 token
+La distribuzione delle parole tipo a 121000 token é di: 7721 token
+La distribuzione delle parole tipo a 122000 token é di: 7763 token
+La distribuzione delle parole tipo a 123000 token é di: 7791 token
+La distribuzione delle parole tipo a 124000 token é di: 7816 token
+La distribuzione delle parole tipo a 125000 token é di: 7838 token
+La distribuzione delle parole tipo a 126000 token é di: 7851 token
+La distribuzione delle parole tipo a 127000 token é di: 7880 token
+La distribuzione delle parole tipo a 128000 token é di: 7907 token
+La distribuzione delle parole tipo a 129000 token é di: 7933 token
+La distribuzione delle parole tipo a 130000 token é di: 7954 token
+La distribuzione delle parole tipo a 131000 token é di: 7982 token
+La distribuzione delle parole tipo a 132000 token é di: 8016 token
+La distribuzione delle parole tipo a 133000 token é di: 8051 token
+La distribuzione delle parole tipo a 134000 token é di: 8089 token
+La distribuzione delle parole tipo a 135000 token é di: 8118 token
+La distribuzione delle parole tipo a 136000 token é di: 8148 token
+La distribuzione delle parole tipo a 137000 token é di: 8177 token
+La distribuzione delle parole tipo a 138000 token é di: 8195 token
+La distribuzione delle parole tipo a 139000 token é di: 8217 token
+La distribuzione delle parole tipo a 140000 token é di: 8235 token
+La distribuzione delle parole tipo a 141000 token é di: 8261 token
+La distribuzione delle parole tipo a 142000 token é di: 8287 token
+La distribuzione delle parole tipo a 143000 token é di: 8309 token
+La distribuzione delle parole tipo a 144000 token é di: 8337 token
+La distribuzione delle parole tipo a 145000 token é di: 8362 token
+La distribuzione delle parole tipo a 146000 token é di: 8388 token
+La distribuzione delle parole tipo a 147000 token é di: 8407 token
+La distribuzione delle parole tipo a 148000 token é di: 8440 token
+La distribuzione delle parole tipo a 149000 token é di: 8497 token
+La distribuzione delle parole tipo a 150000 token é di: 8531 token
+La distribuzione delle parole tipo a 151000 token é di: 8572 token
+La distribuzione delle parole tipo a 152000 token é di: 8601 token
+La distribuzione delle parole tipo a 153000 token é di: 8626 token
+La distribuzione delle parole tipo a 154000 token é di: 8667 token
+La distribuzione delle parole tipo a 155000 token é di: 8700 token
+La distribuzione delle parole tipo a 156000 token é di: 8730 token
+La distribuzione delle parole tipo a 157000 token é di: 8769 token
+La distribuzione delle parole tipo a 158000 token é di: 8786 token
+La distribuzione delle parole tipo a 159000 token é di: 8822 token
+La distribuzione delle parole tipo a 160000 token é di: 8843 token
+La distribuzione delle parole tipo a 161000 token é di: 8876 token
+La distribuzione delle parole tipo a 162000 token é di: 8899 token
+La distribuzione delle parole tipo a 163000 token é di: 8924 token
+La distribuzione delle parole tipo a 164000 token é di: 8953 token
+La distribuzione delle parole tipo a 165000 token é di: 8981 token
+La distribuzione delle parole tipo a 166000 token é di: 9004 token
+La distribuzione delle parole tipo a 167000 token é di: 9023 token
+La distribuzione delle parole tipo a 168000 token é di: 9047 token
+La distribuzione delle parole tipo a 169000 token é di: 9074 token
+La distribuzione delle parole tipo a 170000 token é di: 9096 token
+La distribuzione delle parole tipo a 171000 token é di: 9124 token
+La distribuzione delle parole tipo a 172000 token é di: 9148 token
+La distribuzione delle parole tipo a 173000 token é di: 9188 token
+La distribuzione delle parole tipo a 174000 token é di: 9226 token
+La distribuzione delle parole tipo a 175000 token é di: 9249 token
+La distribuzione delle parole tipo a 176000 token é di: 9285 token
+La distribuzione delle parole tipo a 177000 token é di: 9299 token
+La distribuzione delle parole tipo a 178000 token é di: 9318 token
+La distribuzione delle parole tipo a 179000 token é di: 9343 token
+La distribuzione delle parole tipo a 180000 token é di: 9369 token
+La distribuzione delle parole tipo a 181000 token é di: 9388 token
+La distribuzione delle parole tipo a 182000 token é di: 9415 token
+La distribuzione delle parole tipo a 183000 token é di: 9434 token
+La distribuzione delle parole tipo a 184000 token é di: 9452 token
+La distribuzione delle parole tipo a 185000 token é di: 9477 token
+La distribuzione delle parole tipo a 186000 token é di: 9508 token
+
+
+La distribuzione degli hapax a 1000 token é di: 287 token
+La distribuzione degli hapax a 2000 token é di: 437 token
+La distribuzione degli hapax a 3000 token é di: 549 token
+La distribuzione degli hapax a 4000 token é di: 640 token
+La distribuzione degli hapax a 5000 token é di: 730 token
+La distribuzione degli hapax a 6000 token é di: 784 token
+La distribuzione degli hapax a 7000 token é di: 877 token
+La distribuzione degli hapax a 8000 token é di: 952 token
+La distribuzione degli hapax a 9000 token é di: 1005 token
+La distribuzione degli hapax a 10000 token é di: 1046 token
+La distribuzione degli hapax a 11000 token é di: 1072 token
+La distribuzione degli hapax a 12000 token é di: 1116 token
+La distribuzione degli hapax a 13000 token é di: 1177 token
+La distribuzione degli hapax a 14000 token é di: 1227 token
+La distribuzione degli hapax a 15000 token é di: 1265 token
+La distribuzione degli hapax a 16000 token é di: 1317 token
+La distribuzione degli hapax a 17000 token é di: 1342 token
+La distribuzione degli hapax a 18000 token é di: 1399 token
+La distribuzione degli hapax a 19000 token é di: 1439 token
+La distribuzione degli hapax a 20000 token é di: 1489 token
+La distribuzione degli hapax a 21000 token é di: 1531 token
+La distribuzione degli hapax a 22000 token é di: 1592 token
+La distribuzione degli hapax a 23000 token é di: 1637 token
+La distribuzione degli hapax a 24000 token é di: 1685 token
+La distribuzione degli hapax a 25000 token é di: 1721 token
+La distribuzione degli hapax a 26000 token é di: 1760 token
+La distribuzione degli hapax a 27000 token é di: 1801 token
+La distribuzione degli hapax a 28000 token é di: 1838 token
+La distribuzione degli hapax a 29000 token é di: 1869 token
+La distribuzione degli hapax a 30000 token é di: 1894 token
+La distribuzione degli hapax a 31000 token é di: 1908 token
+La distribuzione degli hapax a 32000 token é di: 1938 token
+La distribuzione degli hapax a 33000 token é di: 1964 token
+La distribuzione degli hapax a 34000 token é di: 2015 token
+La distribuzione degli hapax a 35000 token é di: 2037 token
+La distribuzione degli hapax a 36000 token é di: 2080 token
+La distribuzione degli hapax a 37000 token é di: 2124 token
+La distribuzione degli hapax a 38000 token é di: 2155 token
+La distribuzione degli hapax a 39000 token é di: 2172 token
+La distribuzione degli hapax a 40000 token é di: 2190 token
+La distribuzione degli hapax a 41000 token é di: 2222 token
+La distribuzione degli hapax a 42000 token é di: 2246 token
+La distribuzione degli hapax a 43000 token é di: 2293 token
+La distribuzione degli hapax a 44000 token é di: 2322 token
+La distribuzione degli hapax a 45000 token é di: 2362 token
+La distribuzione degli hapax a 46000 token é di: 2390 token
+La distribuzione degli hapax a 47000 token é di: 2397 token
+La distribuzione degli hapax a 48000 token é di: 2442 token
+La distribuzione degli hapax a 49000 token é di: 2482 token
+La distribuzione degli hapax a 50000 token é di: 2510 token
+La distribuzione degli hapax a 51000 token é di: 2537 token
+La distribuzione degli hapax a 52000 token é di: 2577 token
+La distribuzione degli hapax a 53000 token é di: 2593 token
+La distribuzione degli hapax a 54000 token é di: 2624 token
+La distribuzione degli hapax a 55000 token é di: 2644 token
+La distribuzione degli hapax a 56000 token é di: 2667 token
+La distribuzione degli hapax a 57000 token é di: 2698 token
+La distribuzione degli hapax a 58000 token é di: 2706 token
+La distribuzione degli hapax a 59000 token é di: 2731 token
+La distribuzione degli hapax a 60000 token é di: 2766 token
+La distribuzione degli hapax a 61000 token é di: 2804 token
+La distribuzione degli hapax a 62000 token é di: 2825 token
+La distribuzione degli hapax a 63000 token é di: 2841 token
+La distribuzione degli hapax a 64000 token é di: 2864 token
+La distribuzione degli hapax a 65000 token é di: 2877 token
+La distribuzione degli hapax a 66000 token é di: 2884 token
+La distribuzione degli hapax a 67000 token é di: 2913 token
+La distribuzione degli hapax a 68000 token é di: 2937 token
+La distribuzione degli hapax a 69000 token é di: 2961 token
+La distribuzione degli hapax a 70000 token é di: 2992 token
+La distribuzione degli hapax a 71000 token é di: 2996 token
+La distribuzione degli hapax a 72000 token é di: 3002 token
+La distribuzione degli hapax a 73000 token é di: 3023 token
+La distribuzione degli hapax a 74000 token é di: 3057 token
+La distribuzione degli hapax a 75000 token é di: 3068 token
+La distribuzione degli hapax a 76000 token é di: 3075 token
+La distribuzione degli hapax a 77000 token é di: 3093 token
+La distribuzione degli hapax a 78000 token é di: 3108 token
+La distribuzione degli hapax a 79000 token é di: 3127 token
+La distribuzione degli hapax a 80000 token é di: 3146 token
+La distribuzione degli hapax a 81000 token é di: 3180 token
+La distribuzione degli hapax a 82000 token é di: 3205 token
+La distribuzione degli hapax a 83000 token é di: 3224 token
+La distribuzione degli hapax a 84000 token é di: 3236 token
+La distribuzione degli hapax a 85000 token é di: 3242 token
+La distribuzione degli hapax a 86000 token é di: 3253 token
+La distribuzione degli hapax a 87000 token é di: 3267 token
+La distribuzione degli hapax a 88000 token é di: 3293 token
+La distribuzione degli hapax a 89000 token é di: 3328 token
+La distribuzione degli hapax a 90000 token é di: 3341 token
+La distribuzione degli hapax a 91000 token é di: 3368 token
+La distribuzione degli hapax a 92000 token é di: 3402 token
+La distribuzione degli hapax a 93000 token é di: 3407 token
+La distribuzione degli hapax a 94000 token é di: 3429 token
+La distribuzione degli hapax a 95000 token é di: 3440 token
+La distribuzione degli hapax a 96000 token é di: 3456 token
+La distribuzione degli hapax a 97000 token é di: 3473 token
+La distribuzione degli hapax a 98000 token é di: 3481 token
+La distribuzione degli hapax a 99000 token é di: 3498 token
+La distribuzione degli hapax a 100000 token é di: 3524 token
+La distribuzione degli hapax a 101000 token é di: 3534 token
+La distribuzione degli hapax a 102000 token é di: 3546 token
+La distribuzione degli hapax a 103000 token é di: 3560 token
+La distribuzione degli hapax a 104000 token é di: 3566 token
+La distribuzione degli hapax a 105000 token é di: 3566 token
+La distribuzione degli hapax a 106000 token é di: 3582 token
+La distribuzione degli hapax a 107000 token é di: 3597 token
+La distribuzione degli hapax a 108000 token é di: 3601 token
+La distribuzione degli hapax a 109000 token é di: 3599 token
+La distribuzione degli hapax a 110000 token é di: 3630 token
+La distribuzione degli hapax a 111000 token é di: 3647 token
+La distribuzione degli hapax a 112000 token é di: 3660 token
+La distribuzione degli hapax a 113000 token é di: 3668 token
+La distribuzione degli hapax a 114000 token é di: 3683 token
+La distribuzione degli hapax a 115000 token é di: 3695 token
+La distribuzione degli hapax a 116000 token é di: 3701 token
+La distribuzione degli hapax a 117000 token é di: 3710 token
+La distribuzione degli hapax a 118000 token é di: 3713 token
+La distribuzione degli hapax a 119000 token é di: 3723 token
+La distribuzione degli hapax a 120000 token é di: 3741 token
+La distribuzione degli hapax a 121000 token é di: 3735 token
+La distribuzione degli hapax a 122000 token é di: 3762 token
+La distribuzione degli hapax a 123000 token é di: 3775 token
+La distribuzione degli hapax a 124000 token é di: 3779 token
+La distribuzione degli hapax a 125000 token é di: 3788 token
+La distribuzione degli hapax a 126000 token é di: 3780 token
+La distribuzione degli hapax a 127000 token é di: 3787 token
+La distribuzione degli hapax a 128000 token é di: 3789 token
+La distribuzione degli hapax a 129000 token é di: 3800 token
+La distribuzione degli hapax a 130000 token é di: 3796 token
+La distribuzione degli hapax a 131000 token é di: 3804 token
+La distribuzione degli hapax a 132000 token é di: 3820 token
+La distribuzione degli hapax a 133000 token é di: 3826 token
+La distribuzione degli hapax a 134000 token é di: 3847 token
+La distribuzione degli hapax a 135000 token é di: 3866 token
+La distribuzione degli hapax a 136000 token é di: 3882 token
+La distribuzione degli hapax a 137000 token é di: 3889 token
+La distribuzione degli hapax a 138000 token é di: 3891 token
+La distribuzione degli hapax a 139000 token é di: 3898 token
+La distribuzione degli hapax a 140000 token é di: 3903 token
+La distribuzione degli hapax a 141000 token é di: 3912 token
+La distribuzione degli hapax a 142000 token é di: 3922 token
+La distribuzione degli hapax a 143000 token é di: 3929 token
+La distribuzione degli hapax a 144000 token é di: 3940 token
+La distribuzione degli hapax a 145000 token é di: 3947 token
+La distribuzione degli hapax a 146000 token é di: 3964 token
+La distribuzione degli hapax a 147000 token é di: 3970 token
+La distribuzione degli hapax a 148000 token é di: 3978 token
+La distribuzione degli hapax a 149000 token é di: 4013 token
+La distribuzione degli hapax a 150000 token é di: 4033 token
+La distribuzione degli hapax a 151000 token é di: 4051 token
+La distribuzione degli hapax a 152000 token é di: 4063 token
+La distribuzione degli hapax a 153000 token é di: 4066 token
+La distribuzione degli hapax a 154000 token é di: 4084 token
+La distribuzione degli hapax a 155000 token é di: 4104 token
+La distribuzione degli hapax a 156000 token é di: 4109 token
+La distribuzione degli hapax a 157000 token é di: 4124 token
+La distribuzione degli hapax a 158000 token é di: 4128 token
+La distribuzione degli hapax a 159000 token é di: 4145 token
+La distribuzione degli hapax a 160000 token é di: 4149 token
+La distribuzione degli hapax a 161000 token é di: 4169 token
+La distribuzione degli hapax a 162000 token é di: 4178 token
+La distribuzione degli hapax a 163000 token é di: 4185 token
+La distribuzione degli hapax a 164000 token é di: 4198 token
+La distribuzione degli hapax a 165000 token é di: 4213 token
+La distribuzione degli hapax a 166000 token é di: 4223 token
+La distribuzione degli hapax a 167000 token é di: 4228 token
+La distribuzione degli hapax a 168000 token é di: 4240 token
+La distribuzione degli hapax a 169000 token é di: 4250 token
+La distribuzione degli hapax a 170000 token é di: 4254 token
+La distribuzione degli hapax a 171000 token é di: 4262 token
+La distribuzione degli hapax a 172000 token é di: 4270 token
+La distribuzione degli hapax a 173000 token é di: 4292 token
+La distribuzione degli hapax a 174000 token é di: 4305 token
+La distribuzione degli hapax a 175000 token é di: 4310 token
+La distribuzione degli hapax a 176000 token é di: 4335 token
+La distribuzione degli hapax a 177000 token é di: 4334 token
+La distribuzione degli hapax a 178000 token é di: 4334 token
+La distribuzione degli hapax a 179000 token é di: 4344 token
+La distribuzione degli hapax a 180000 token é di: 4358 token
+La distribuzione degli hapax a 181000 token é di: 4366 token
+La distribuzione degli hapax a 182000 token é di: 4379 token
+La distribuzione degli hapax a 183000 token é di: 4371 token
+La distribuzione degli hapax a 184000 token é di: 4373 token
+La distribuzione degli hapax a 185000 token é di: 4381 token
+La distribuzione degli hapax a 186000 token é di: 4405 token
+
+
+4) Rapporto tra sostantivi e verbi
+
+Il rapporto tra sostantivi e verbi nel primo testo é: 1.0673952235749737
+Il rapporto tra sostantivi e verbi nel secondo testo é: 1.1564982523037814
+Il rapporto tra sostantivi e verbi nel secondo testo é maggiore di quello del primo
+
+
+5) Le 10 Part of Speech più frequenti
+
+Per il primo testo, le 10 PoS più frequenti sono:
+
+PoS NN con frequenza 30445
+PoS PRP con frequenza 24233
+PoS IN con frequenza 24093
+PoS DT con frequenza 17186
+PoS , con frequenza 16032
+PoS VBD con frequenza 15688
+PoS RB con frequenza 14942
+PoS JJ con frequenza 14819
+PoS . con frequenza 13429
+PoS NNP con frequenza 11977
+
+
+Per il secondo testo, le 10 PoS più frequenti sono:
+
+PoS NN con frequenza 21855
+PoS IN con frequenza 19493
+PoS PRP con frequenza 13367
+PoS DT con frequenza 13043
+PoS , con frequenza 12438
+PoS RB con frequenza 11423
+PoS JJ con frequenza 10598
+PoS NNP con frequenza 10424
+PoS VBD con frequenza 9626
+PoS VB con frequenza 8974
+
+
+6) Estrazione e ordinamento dei 10 bigrammi di PoS con probabilità condizionata e forza associativa massime e relative probabilità
+
+Nel primo testo, i 10 bigrammi di PoS con probabilità condizionata massima sono:
+
+Bigramma PoS ('$', 'VBP'), valore probabilità condizionata: 1.0
+Bigramma PoS ('PDT', 'DT'), valore probabilità condizionata: 0.9130434782608695
+Bigramma PoS ('RBS', 'JJ'), valore probabilità condizionata: 0.8725490196078431
+Bigramma PoS ('WP$', 'NN'), valore probabilità condizionata: 0.7894736842105263
+Bigramma PoS ('UH', ','), valore probabilità condizionata: 0.7142857142857143
+Bigramma PoS ('POS', 'NN'), valore probabilità condizionata: 0.7142857142857143
+Bigramma PoS ('MD', 'VB'), valore probabilità condizionata: 0.6522698612862547
+Bigramma PoS ('TO', 'VB'), valore probabilità condizionata: 0.6154138192862566
+Bigramma PoS ('PRP$', 'NN'), valore probabilità condizionata: 0.5743243243243243
+Bigramma PoS ('DT', 'NN'), valore probabilità condizionata: 0.5636564645641802
+
+
+I 10 bigrammi di PoS con forza associativa massima sono:
+
+Bigramma PoS ('DT', 'NN'), valore forza associativa: 21615.89075204884
+Bigramma PoS ('PRP', 'VBD'), valore forza associativa: 16209.519418716494
+Bigramma PoS ('IN', 'DT'), valore forza associativa: 14394.844342726079
+Bigramma PoS ('TO', 'VB'), valore forza associativa: 12847.841634451617
+Bigramma PoS ('PRP', 'VBP'), valore forza associativa: 12080.533825634871
+Bigramma PoS ('JJ', 'NN'), valore forza associativa: 10816.688901766283
+Bigramma PoS ('NNP', 'NNP'), valore forza associativa: 8681.89437066005
+Bigramma PoS ('MD', 'VB'), valore forza associativa: 8372.930771389623
+Bigramma PoS ('NN', '.'), valore forza associativa: 7499.368130761515
+Bigramma PoS ('DT', 'JJ'), valore forza associativa: 7367.23364090056
+
+
+Nel secondo testo, i 10 bigrammi di PoS con probabilità condizionata massima sono:
+
+Bigramma PoS ('POS', 'NN'), valore probabilità condizionata: 1.0
+Bigramma PoS ('$', 'VBP'), valore probabilità condizionata: 1.0
+Bigramma PoS ('PDT', 'DT'), valore probabilità condizionata: 0.9173728813559322
+Bigramma PoS ('RBS', 'JJ'), valore probabilità condizionata: 0.7696629213483146
+Bigramma PoS ('TO', 'VB'), valore probabilità condizionata: 0.6536828502861363
+Bigramma PoS ('MD', 'VB'), valore probabilità condizionata: 0.6205053449951409
+Bigramma PoS (':', 'CC'), valore probabilità condizionata: 0.5598307041169681
+Bigramma PoS ('DT', 'NN'), valore probabilità condizionata: 0.5503335122287817
+Bigramma PoS ('PRP$', 'NN'), valore probabilità condizionata: 0.5236529680365297
+Bigramma PoS ('UH', ','), valore probabilità condizionata: 0.5223880597014925
+
+
+I 10 bigrammi di PoS con forza associativa massima sono:
+
+Bigramma PoS ('DT', 'NN'), valore forza associativa: 16006.78368799879
+Bigramma PoS ('TO', 'VB'), valore forza associativa: 13322.669649310235
+Bigramma PoS ('IN', 'DT'), valore forza associativa: 10866.60837253925
+Bigramma PoS ('MD', 'VB'), valore forza associativa: 9417.251739111995
+Bigramma PoS ('NNP', 'NNP'), valore forza associativa: 9383.824988114226
+Bigramma PoS ('PRP', 'VBD'), valore forza associativa: 8832.158874458435
+Bigramma PoS (',', 'CC'), valore forza associativa: 8513.614367910648
+Bigramma PoS ('NN', 'IN'), valore forza associativa: 8163.527383962474
+Bigramma PoS ('NN', ','), valore forza associativa: 6970.254819009216
+Bigramma PoS ('JJ', 'NN'), valore forza associativa: 6884.66972788555
